@@ -4,7 +4,7 @@
 <head>
     <title>Form Validation</title>
     <script type="text/javascript">
-        var divs = new array();
+        var divs = new Array();
         divs[0] = "errFirst";
         divs[1] = "errLast";
         divs[2] = "errEmail";
@@ -70,10 +70,10 @@ for(i=0;i
 <6; i++)
     {
     var div=divs[i];
-    if(document.getElementById(div).innerHTML= ="OK!" )
+    if(document.getElementById(div).innerHTML ="OK!" )
     count=count+1;
     }
-    if (count= =6)
+    if (count =6)
     document.getElementById("errFinal").innerHTML="All the data you entered is correct!!" ;
     }
              </script>
@@ -88,8 +88,8 @@ for(i=0;i
             <tr>
                 <td>Last Name:</td>
                 <td><input type="text" id="last" onkeyup="validate();" /></td>
-                <td><div id="errLastt"></div></td>
-            </tr>
+                <td><div id="errLast"></div></td>
+            </tr>s
             <tr>
                 <td>Email:</td>
                 <td><input type="text" id="email" onkeyup="validate();" /></td>
